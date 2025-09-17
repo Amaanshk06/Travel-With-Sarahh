@@ -60,12 +60,19 @@ function Footer() {
           <img src="./assets/images/InT_FooterLogos_Color_NortonSecured.webp" alt="InT_FooterLogos_Color_NortonSecured Logo" />
           <img src="./assets/images/InT_FooterLogos_Color_ATOL.webp" alt="InT_FooterLogos_Color_ATOL" />
         </div>
-        <p>
-          © Copyright 2025 InteleTravel. All rights reserved. 
-          <a href="#"> Privacy</a> | 
-          <a href="#"> Terms of Use</a> | 
-          <a href="#"> Agency Terms of Business</a>
-        </p>
+
+        {/* Inline copyright + developer */}
+        <div className="footer-inline">
+          <p>
+            © Copyright 2025 InteleTravel. All rights reserved.
+            <a href="#"> Privacy</a> | 
+            <a href="#"> Terms of Use</a> | 
+            <a href="#"> Agency Terms of Business</a>
+          </p>
+          <span className="developer-credit">
+            Developed by <a href="https://cashlesskarma.in" target="_blank" rel="noopener noreferrer">Cashless Karma</a>
+          </span>
+        </div>
       </div>
     </footer>
   );

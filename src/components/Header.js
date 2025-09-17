@@ -14,7 +14,7 @@ function Header() {
         <nav>
           <a href="#">For Travellers</a>
           <a href="#">For Advisors</a>
-          <a href="#">About InteleTravel</a>
+          <a href="#">About Us</a>
         </nav>
 
         {/* Buttons */}

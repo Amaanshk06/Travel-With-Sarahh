@@ -8,6 +8,7 @@ import Client from './components/Client.js';
 import Footer from './components/Footer.js';
 import Partners from './components/Partners.js';
 import Testimonials from './components/Testimonials.js';
+import Dream from './components/Dream.js';
 
 function App() {
     const [showPopup, setShowPopup] = useState(false);
@@ -86,6 +87,7 @@ function App() {
                     <Client />
                     <Partners />
                     <Testimonials />
+                    <Dream/>
                 </div>
             </main>
 
